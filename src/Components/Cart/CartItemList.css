@@ -1,0 +1,11 @@
+.Cart_item_list {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+    position: relative;
+    background-color: rgba(245, 245, 245, 0);
+    color: black;
+    border-radius: 14px;
+    padding: 1rem;
+}

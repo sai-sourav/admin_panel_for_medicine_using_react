@@ -1,0 +1,40 @@
+.form {
+    position: fixed;
+    top: 3rem;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(137, 69, 10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+}
+
+.input_ele {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+input {
+    height: 1.5rem;
+    border-radius: 2px;
+    border: none;
+}
+
+.AddProduct_button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(87, 20, 20);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.AddProduct_button:hover {
+    background-color: rgb(109, 44, 44);
+    color: white;
+}
